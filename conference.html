@@ -49,7 +49,7 @@
 		//console.log(conference_events);
 		var table = new Tabulator("#table-conference", {
 		data:conference_events,
-		autoColumns:true,
+		//autoColumns:true,
 		height:"600px",
 		layout:"fitDataFill",
 		responsiveLayout:"collapse",
@@ -60,11 +60,14 @@
 		groupToggleElement:"header",
 		rowHeader:{formatter:"responsiveCollapse", width:30, minWidth:30, hozAlign:"center", resizable:false, headerSort:false},
 		columns:[
-			{title:"Conference", field:"Conference", hozAlign:"left", width:40},
-			{title:"Year", field:"Year", hozAlign:"left", width:20},
-			{title:"Place", field:"Place", hozAlign:"left", width:20},
-			{title:"Date", field:"Date", hozAlign:"left", width:60},
-			{title:"url", field:"url", width:"30%"},//, formatter:"link", formatterParams:{labelField:"url", urlField:"url", target:"_blank",}},
+			{title:"Conference", field:"url", width:200, responsive:0, 
+				formatter:"link", formatterParams:{
+					labelField:"Conference", urlField:"url", target:"_blank",}},
+			//{title:"Conference", field:"Conference", hozAlign:"left", width:200},
+			{title:"Year", field:"Year", hozAlign:"left", width:90},
+			{title:"Place", field:"Place", hozAlign:"left", width:300},
+			{title:"Date", field:"Date", hozAlign:"left", width:250},
+			{title:"url", field:"url", width:"30%", formatter:"link", formatterParams:{labelField:"url", urlField:"url", target:"_blank",}},
 			{title:"Name", field:"Name", hozAlign:"left", width:80},
 			],
 		})

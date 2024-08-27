@@ -36,7 +36,7 @@ var conference_events = [
     "Year": 2021,
     "Place": "Seattle, WA, USA / online",
     "Date": "2021-04-07 to 2021-04-11",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -52,7 +52,7 @@ var conference_events = [
     "Year": 2019,
     "Place": "Washington, DC, USA",
     "Date": "2019-04-03 to 2019-04-07",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -108,7 +108,7 @@ var conference_events = [
     "Year": 2012,
     "Place": "New York, NY, USA",
     "Date": "2012-02-24 to 2012-02-28",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -116,7 +116,7 @@ var conference_events = [
     "Year": 2011,
     "Place": "Seattle, WA, USA",
     "Date": "2011-04-12 to 2011-04-16",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -124,7 +124,7 @@ var conference_events = [
     "Year": 2010,
     "Place": "Washington, DC, USA",
     "Date": "2010-04-14 to 2010-04-18",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -132,7 +132,7 @@ var conference_events = [
     "Year": 2009,
     "Place": "Las Vegas, NV, USA",
     "Date": "2009-03-22 to 2009-03-27",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -140,7 +140,7 @@ var conference_events = [
     "Year": 2008,
     "Place": "Boston, MA, USA",
     "Date": "2008-04-15 to 2008-04-19",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -148,7 +148,7 @@ var conference_events = [
     "Year": 2007,
     "Place": "San Francisco, CA, USA",
     "Date": "2007-04-17 to 2007-04-21",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -156,7 +156,7 @@ var conference_events = [
     "Year": 2006,
     "Place": "Chicago, IL, USA",
     "Date": "2006-03-07 to 2006-03-11",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -164,7 +164,7 @@ var conference_events = [
     "Year": 2005,
     "Place": "Denver, CO, USA",
     "Date": "2005-04-05 to 2005-04-09",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -172,7 +172,7 @@ var conference_events = [
     "Year": 2004,
     "Place": "Philadelphia, PA, USA",
     "Date": "2004-03-14 to 2004-03-19",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -180,7 +180,7 @@ var conference_events = [
     "Year": 2003,
     "Place": "New Orleans, LA, USA",
     "Date": "2003-03-05 to 2003-03-08",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -188,7 +188,7 @@ var conference_events = [
     "Year": 2002,
     "Place": "Los Angeles, CA, USA",
     "Date": "2002-03-19 to 2002-03-22",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -196,7 +196,7 @@ var conference_events = [
     "Year": 2001,
     "Place": "New York, NY, USA",
     "Date": "2001-02-27 to 2001-03-03",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -204,7 +204,7 @@ var conference_events = [
     "Year": 2000,
     "Place": "Pittsburgh, PA, USA",
     "Date": "2000-04-04 to 2000-04-08",
-    "url": "-",
+    "url": "#",
     "Name": "American Association of Geographers Annual Meeting"
   },
   {
@@ -380,7 +380,7 @@ var conference_events = [
     "Year": 2003,
     "Place": "New Orleans, LA, USA",
     "Date": "2003-11-07 to 2003-11-08",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -388,7 +388,7 @@ var conference_events = [
     "Year": 2002,
     "Place": "McLean, VA, USA",
     "Date": "2002-11-08 to 2002-11-09",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -396,7 +396,7 @@ var conference_events = [
     "Year": 2001,
     "Place": "Atlanta, GA, USA",
     "Date": "2001-11-09 to 2001-11-10",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -404,7 +404,7 @@ var conference_events = [
     "Year": 2000,
     "Place": "Washington, DC, USA",
     "Date": "2000-11-10 to 2000-11-11",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -412,7 +412,7 @@ var conference_events = [
     "Year": 1999,
     "Place": "Kansas City, MO, USA",
     "Date": "1999-11-02 to 1999-11-06",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -420,7 +420,7 @@ var conference_events = [
     "Year": 1998,
     "Place": "Washington, DC, USA",
     "Date": "1998-11-06 to 1998-11-07",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -428,7 +428,7 @@ var conference_events = [
     "Year": 1997,
     "Place": "Las Vegas, NV, USA",
     "Date": "1997-11-13 to 1997-11-14",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -436,7 +436,7 @@ var conference_events = [
     "Year": 1996,
     "Place": "Rockville, MD, USA",
     "Date": "1996-11-15 to 1996-11-16",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -444,7 +444,7 @@ var conference_events = [
     "Year": 1995,
     "Place": "Baltimore, MD, USA",
     "Date": "1995-12-01 to 1995-12-02",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -452,7 +452,7 @@ var conference_events = [
     "Year": 1994,
     "Place": "Gaithersburg, MD, USA",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -460,7 +460,7 @@ var conference_events = [
     "Year": 1993,
     "Place": "Arlington, VA, USA",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -540,7 +540,7 @@ var conference_events = [
     "Year": 2014,
     "Place": "Castellon, Spain",
     "Date": "2014-06-03 to 2014-06-06",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -548,7 +548,7 @@ var conference_events = [
     "Year": 2013,
     "Place": "Leuven, Belgium",
     "Date": "2013-05-14 to 2013-05-17",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -556,7 +556,7 @@ var conference_events = [
     "Year": 2012,
     "Place": "Avignon, France",
     "Date": "2012-04-24 to 2012-04-27",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -564,7 +564,7 @@ var conference_events = [
     "Year": 2011,
     "Place": "Utrecht, The Netherlands",
     "Date": "2011-04-18 to 2011-04-21",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -572,7 +572,7 @@ var conference_events = [
     "Year": 2010,
     "Place": "Guimaraes, Portugal",
     "Date": "2010-05-11 to 2010-05-14",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -580,7 +580,7 @@ var conference_events = [
     "Year": 2009,
     "Place": "Hannover, Germany",
     "Date": "2009-06-02 to 2009-06-05",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -588,7 +588,7 @@ var conference_events = [
     "Year": 2008,
     "Place": "Girona, Spain",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -596,7 +596,7 @@ var conference_events = [
     "Year": 2007,
     "Place": "Aalborg, Denmark",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -604,7 +604,7 @@ var conference_events = [
     "Year": 2006,
     "Place": "Visegrad, Hungary",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -612,7 +612,7 @@ var conference_events = [
     "Year": 2005,
     "Place": "Estoril, Portugal",
     "Date": "2005-05-26 to 2005-05-28",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -620,7 +620,7 @@ var conference_events = [
     "Year": 2004,
     "Place": "Heraklion, Greece",
     "Date": "2004-04-29 to 2004-05-01",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -628,7 +628,7 @@ var conference_events = [
     "Year": 2003,
     "Place": "Lyon, France",
     "Date": "2003-04-24 to 2003-04-26",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -636,7 +636,7 @@ var conference_events = [
     "Year": 2002,
     "Place": "Mallorca, Spain",
     "Date": "2002-04-25 to 2002-04-27",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -644,7 +644,7 @@ var conference_events = [
     "Year": 2001,
     "Place": "Brno, Czech Republic",
     "Date": "2001-04-19 to 2001-04-21",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -652,7 +652,7 @@ var conference_events = [
     "Year": 2000,
     "Place": "Helsinki, Finland",
     "Date": "2000-05-25 to 2000-05-27",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -660,7 +660,7 @@ var conference_events = [
     "Year": 1999,
     "Place": "Rome, Italy",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -668,7 +668,7 @@ var conference_events = [
     "Year": 1998,
     "Place": "Enschede, The Netherlands",
     "Date": "1998-04-23 to 1998-04-25",
-    "url": "-",
+    "url": "#",
     "Name": "AGILE Conference on Geographic Information Science"
   },
   {
@@ -788,7 +788,7 @@ var conference_events = [
     "Year": 1995,
     "Place": "Semmering, Austria",
     "Date": "1995-09-21 to 1995-09-23",
-    "url": "-",
+    "url": "#",
     "Name": "Conference on Spatial Information Theory"
   },
   {
@@ -796,7 +796,7 @@ var conference_events = [
     "Year": 1993,
     "Place": "Elba, Italy",
     "Date": "1993-09-19 to 1993-09-22",
-    "url": "-",
+    "url": "#",
     "Name": "Conference on Spatial Information Theory"
   },
   {
@@ -804,7 +804,7 @@ var conference_events = [
     "Year": 1992,
     "Place": "Pisa, Italy",
     "Date": "1992-09-21 to 1992-09-23",
-    "url": "-",
+    "url": "#",
     "Name": "Conference on Spatial Information Theory"
   },
   {
@@ -964,7 +964,7 @@ var conference_events = [
     "Year": 2018,
     "Place": "Melbourne, Australia",
     "Date": "2018-08-28 to 2018-08-31",
-    "url": "-",
+    "url": "#",
     "Name": "International Conference on Geographic Information Science"
   },
   {
@@ -980,7 +980,7 @@ var conference_events = [
     "Year": 2014,
     "Place": "Vienna, Austria",
     "Date": "2014-09-24 to 2014-09-26",
-    "url": "-",
+    "url": "#",
     "Name": "International Conference on Geographic Information Science"
   },
   {
@@ -988,7 +988,7 @@ var conference_events = [
     "Year": 2012,
     "Place": "Columbus, OH, USA",
     "Date": "2012-09-18 to 2012-09-21",
-    "url": "-",
+    "url": "#",
     "Name": "International Conference on Geographic Information Science"
   },
   {
@@ -1004,7 +1004,7 @@ var conference_events = [
     "Year": 2008,
     "Place": "Park City, UT, USA",
     "Date": "2008-09-23 to 2008-09-26",
-    "url": "-",
+    "url": "#",
     "Name": "International Conference on Geographic Information Science"
   },
   {
@@ -1012,7 +1012,7 @@ var conference_events = [
     "Year": 2006,
     "Place": "M\u00fcnster, Germany",
     "Date": "2006-09-20 to 2006-09-23",
-    "url": "-",
+    "url": "#",
     "Name": "International Conference on Geographic Information Science"
   },
   {
@@ -1180,7 +1180,7 @@ var conference_events = [
     "Year": 1991,
     "Place": "Bournemouth, UK",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1188,7 +1188,7 @@ var conference_events = [
     "Year": 1989,
     "Place": "Budapest, Hungary",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1196,7 +1196,7 @@ var conference_events = [
     "Year": 1987,
     "Place": "Morelia, Mexico",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1204,7 +1204,7 @@ var conference_events = [
     "Year": 1984,
     "Place": "Perth, Australia",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1212,7 +1212,7 @@ var conference_events = [
     "Year": 1982,
     "Place": "Warszawa, Poland",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1220,7 +1220,7 @@ var conference_events = [
     "Year": 1980,
     "Place": "Tokyo, Japan",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1228,7 +1228,7 @@ var conference_events = [
     "Year": 1978,
     "Place": "College Park, MD, USA",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1236,7 +1236,7 @@ var conference_events = [
     "Year": 1976,
     "Place": "Moscow, Russia",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1244,7 +1244,7 @@ var conference_events = [
     "Year": 1974,
     "Place": "Madrid, Spain",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1252,7 +1252,7 @@ var conference_events = [
     "Year": 1972,
     "Place": "Ottawa, Canada",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1260,7 +1260,7 @@ var conference_events = [
     "Year": 1970,
     "Place": "Stresa, Italy",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1268,7 +1268,7 @@ var conference_events = [
     "Year": 1968,
     "Place": "Delhi, India",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1276,7 +1276,7 @@ var conference_events = [
     "Year": 1967,
     "Place": "Amsterdam, The Netherlands",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1284,7 +1284,7 @@ var conference_events = [
     "Year": 1964,
     "Place": "London/Edinburgh, UK",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1292,7 +1292,7 @@ var conference_events = [
     "Year": 1962,
     "Place": "Frankfurt, Germany",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "International Cartographic Conference"
   },
   {
@@ -1396,7 +1396,7 @@ var conference_events = [
     "Year": 1976,
     "Place": "Helsinki, Finland",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1404,7 +1404,7 @@ var conference_events = [
     "Year": 1972,
     "Place": "Ottawa, Canada",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1412,7 +1412,7 @@ var conference_events = [
     "Year": 1968,
     "Place": "Lousanne, Switzerland",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1420,7 +1420,7 @@ var conference_events = [
     "Year": 1964,
     "Place": "Lisbon, Portugal",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1428,7 +1428,7 @@ var conference_events = [
     "Year": 1960,
     "Place": "London, UK",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1436,7 +1436,7 @@ var conference_events = [
     "Year": 1956,
     "Place": "Stockholm, Sweden",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1444,7 +1444,7 @@ var conference_events = [
     "Year": 1952,
     "Place": "Washington, DC, USA",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1452,7 +1452,7 @@ var conference_events = [
     "Year": 1948,
     "Place": "The Hague, The Netherlands",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1460,7 +1460,7 @@ var conference_events = [
     "Year": 1938,
     "Place": "Rome, Italy",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1468,7 +1468,7 @@ var conference_events = [
     "Year": 1934,
     "Place": "Paris, France",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1476,7 +1476,7 @@ var conference_events = [
     "Year": 1930,
     "Place": "Zurich, Switzerland",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1484,7 +1484,7 @@ var conference_events = [
     "Year": 1926,
     "Place": "Berlin, Germany",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1492,7 +1492,7 @@ var conference_events = [
     "Year": 1913,
     "Place": "Vienna, Austria",
     "Date": "-",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Congress"
   },
   {
@@ -1508,7 +1508,7 @@ var conference_events = [
     "Year": 2023,
     "Place": "Cairo, Egypt",
     "Date": "2023-09-02 to 2023-09-07",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Geospatial Week"
   },
   {
@@ -1516,7 +1516,7 @@ var conference_events = [
     "Year": 2021,
     "Place": "Dubai, United Arab Emirates",
     "Date": "2021-03-21 to 2021-03-25",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Geospatial Week"
   },
   {
@@ -1524,7 +1524,7 @@ var conference_events = [
     "Year": 2019,
     "Place": "Enschede, The Netherlands",
     "Date": "2019-06-10 to 2019-06-14",
-    "url": "-",
+    "url": "#",
     "Name": "ISPRS Geospatial Week"
   },
   {
