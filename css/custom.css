@@ -25,6 +25,11 @@ a {
   bottom: 0; 
   position: absolute;
   background-color: var(--ctp-frappe-mantle);
+  color: var(--ctp-frappe-text);
+}
+
+.footer strong {
+  color: var(--ctp-frappe-text);
 }
 
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-cell {
