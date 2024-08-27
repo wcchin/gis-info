@@ -1,6 +1,22 @@
 var conference_events = [
   {
     "Conference": "AAG Annual Meeting",
+    "Year": 2025,
+    "Place": "Detroit, MI, USA",
+    "Date": "2025-03-24 to 2025-03-28",
+    "url": "https://www.aag.org/events/aag2025/",
+    "Name": "American Association of Geographers Annual Meeting"
+  },
+  {
+    "Conference": "AAG Annual Meeting",
+    "Year": 2024,
+    "Place": "Honolulu, HI, USA",
+    "Date": "2024-04-16 to 2024-04-20",
+    "url": "https://www.aag.org/events/aag2024/",
+    "Name": "American Association of Geographers Annual Meeting"
+  },
+  {
+    "Conference": "AAG Annual Meeting",
     "Year": 2023,
     "Place": "Denver, CO, USA",
     "Date": "2023-03-23 to 2023-03-27",
@@ -193,10 +209,26 @@ var conference_events = [
   },
   {
     "Conference": "ACM SIGSPATIAL",
+    "Year": 2024,
+    "Place": "Atlanta, GA, USA",
+    "Date": "2024-10-29 to 2024-11-01",
+    "url": "https://sigspatial2024.sigspatial.org",
+    "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
+  },
+  {
+    "Conference": "ACM SIGSPATIAL",
+    "Year": 2023,
+    "Place": "Hamburg, Germany",
+    "Date": "2023-11-13 to 2023-11-16",
+    "url": "https://sigspatial2023.sigspatial.org/",
+    "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
+  },
+  {
+    "Conference": "ACM SIGSPATIAL",
     "Year": 2022,
     "Place": "Seattle, WA, USA",
     "Date": "2022-11-01 to 2022-11-04",
-    "url": "https://sigspatial2021.sigspatial.org",
+    "url": "https://sigspatial2022.sigspatial.org",
     "Name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems"
   },
   {
@@ -433,6 +465,14 @@ var conference_events = [
   },
   {
     "Conference": "AGILE",
+    "Year": 2024,
+    "Place": "Glasgow, UK",
+    "Date": "2024-07-04 to 2024-07-07",
+    "url": "https://agile-online.org/conference-2023",
+    "Name": "AGILE Conference on Geographic Information Science"
+  },
+  {
+    "Conference": "AGILE",
     "Year": 2023,
     "Place": "Delft, the Netherlands",
     "Date": "2023-06-13 to 2023-06-16",
@@ -530,7 +570,7 @@ var conference_events = [
   {
     "Conference": "AGILE",
     "Year": 2010,
-    "Place": "Guimar\u00e3es, Portugal",
+    "Place": "Guimaraes, Portugal",
     "Date": "2010-05-11 to 2010-05-14",
     "url": "-",
     "Name": "AGILE Conference on Geographic Information Science"
@@ -630,6 +670,14 @@ var conference_events = [
     "Date": "1998-04-23 to 1998-04-25",
     "url": "-",
     "Name": "AGILE Conference on Geographic Information Science"
+  },
+  {
+    "Conference": "COSIT",
+    "Year": 2024,
+    "Place": "Québec City, Canada",
+    "Date": "2024-09-17 to 2024-09-20",
+    "url": "https://cosit.ca/",
+    "Name": "Conference on Spatial Information Theory"
   },
   {
     "Conference": "COSIT",
@@ -889,6 +937,14 @@ var conference_events = [
   },
   {
     "Conference": "GIScience",
+    "Year": 2025,
+    "Place": "Christchurch, New Zealand",
+    "Date": "2025-08-26 to 2025-08-29",
+    "url": "https://giscience2025.org/",
+    "Name": "International Conference on Geographic Information Science"
+  },
+  {
+    "Conference": "GIScience",
     "Year": 2023,
     "Place": "Leeds, UK",
     "Date": "2023-09-12 to 2023-09-15",
@@ -982,6 +1038,14 @@ var conference_events = [
     "Date": "2000-10-28 to 2000-10-31",
     "url": "https://web.archive.org/web/20020301105558/http://www.giscience.org/GIScience2000",
     "Name": "International Conference on Geographic Information Science"
+  },
+  {
+    "Conference": "ICC",
+    "Year": 2025,
+    "Place": "Vancouver, Canada",
+    "Date": "2025-08-16 to 2025-08-22",
+    "url": "https://icc2025.com",
+    "Name": "International Cartographic Conference"
   },
   {
     "Conference": "ICC",
@@ -1233,6 +1297,14 @@ var conference_events = [
   },
   {
     "Conference": "ISPRS Congress",
+    "Year": 2026,
+    "Place": "Toronto, Canada",
+    "Date": "2026-07-04 to 2026-07-11",
+    "url": "https://www.isprs2026toronto.com/",
+    "Name": "ISPRS Congress"
+  },
+  {
+    "Conference": "ISPRS Congress",
     "Year": 2021,
     "Place": "Nice, France / online",
     "Date": "2021-06-05 to 2021-06-09",
@@ -1425,6 +1497,14 @@ var conference_events = [
   },
   {
     "Conference": "ISPRS Geospatial Week",
+    "Year": 2025,
+    "Place": "Dubai, UAE",
+    "Date": "2025-04-06 to 2025-04-11",
+    "url": "https://gsw2025.ae/",
+    "Name": "ISPRS Geospatial Week"
+  },
+  {
+    "Conference": "ISPRS Geospatial Week",
     "Year": 2023,
     "Place": "Cairo, Egypt",
     "Date": "2023-09-02 to 2023-09-07",
@@ -1462,6 +1542,14 @@ var conference_events = [
     "Date": "2015-09-28 to 2015-10-03",
     "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-3-W3/index.html",
     "Name": "ISPRS Geospatial Week"
+  },
+  {
+    "Conference": "PLATIAL",
+    "Year": 2023,
+    "Place": "Dortmund, Germany",
+    "Date": "2023-09-19 to 2023-09-21",
+    "url": "http://platial23.platialscience.net/",
+    "Name": "Symposium on Platial Information Science"
   },
   {
     "Conference": "PLATIAL",
