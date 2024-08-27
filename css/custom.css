@@ -19,14 +19,12 @@ a {
   color: var(--ctp-latte-lavender);
 }
 
-#footer {
-}
-
 .footer {
   padding: 0.5em;
   width: 100%;
   bottom: 0; 
   position: absolute;
+  background-color: var(--ctp-frappe-mantle);
 }
 
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-cell {
