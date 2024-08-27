@@ -10,6 +10,15 @@ body {
   font-weight: 400;
 }
 
+.title {
+  color: var(--ctp-frappe-text);
+  font-weight: 700;
+}
+
+a {
+  color: var(--ctp-latte-lavender);
+}
+
 #footer {
   bottom: 0; 
   position: absolute;
@@ -71,6 +80,25 @@ td {
 .card {
   background-color: var(--ctp-latte-base);
   color: var(--ctp-latte-text);
+}
+
+.tabulator {
+  border-radius: 0.75rem;
+  background-color: var(--ctp-latte-base);
+  color: var(--ctp-latte-text);
+}
+
+.tabulator-row.tabulator-group {
+  background-color: var(--ctp-macchiato-lavender);  
+  color: var(--ctp-macchiato-crust);  
+}
+
+.tabulator-row.tabulator-group:hover {
+  background-color: var(--ctp-latte-lavender); 
+}
+
+.tabulator-row.tabulator-group span {
+  color: var(--ctp-latte-maroon);  
 }
 
 .tabulator-cell a {
