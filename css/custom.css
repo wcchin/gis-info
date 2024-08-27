@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background-color: var(--ctp-mocha-base);
+  color: var(--ctp-mocha-text);
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-cell {
+    white-space: normal;
+}
+
+#nav-burger-close {
+  visibility: hidden;
+}
+#nav-burger-close.is-active {
+  visibility: visible;
+}
+#nav-burger-menu {
+  visibility: hidden;
+}
+#nav-burger-menu.is-active {
+  visibility: visible;
+}
+
+.navbar-menu {
+  background-color: var(--ctp-mocha-mantle);
+}
+.navbar-burger, .menu-list a,
+.menu-list button,
+.menu-list .menu-item{
+  color: var(--ctp-mocha-lavender);
+}
+
+.navbar, a.navbar-brand {
+  background-color: var(--ctp-mocha-mantle);
+}
+
+.navbar-item {
+  background-color: var(--ctp-mocha-crust);
+  color: var(--ctp-mocha-text);
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+a.navbar-item:hover {
+  background-color: var(--ctp-mocha-base);
+  color: var(--ctp-mocha-subtext1);
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+td strong {
+  color: var(--ctp-mocha-base);
+}
+
+td {
+  color: var(--ctp-mocha-crust);
+  font-weight: 300;
+}
+
+.card {
+  background-color: var(--ctp-latte-base);
+  color: var(--ctp-latte-text);
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIScience Events</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/typicons/typicons.css">
+    <!-- Bulma Version 0.7.2-->
+    <link rel="stylesheet" href="./css/bulma/bulma.min.css" />
+    <link href="./css/animations.css" rel="stylesheet">
+    <link href="./css/tabulator/tabulator_bulma.css" rel="stylesheet">
+    <link href="./css/catppuccin.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <noscript>Please enable JavaScript to view this site.</noscript>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/csi.js"></script>
+  </head>
+  <body>
+	<!--#include virtual="/layout/header.html" -->
+    
+    <div class="container">
+      <!-- START ARTICLE FEED -->
+      <section class="articles">
+        <div class="column is-8 is-offset-2">
+
+<div class="section fade-in">
+  <p class="title article-title">
+    Journals
+  </p>
+</div>
+		  <div id="table-journals"></div>
+          
+        </div>
+      </section>
+      <!-- END ARTICLE FEED -->
+    </div>
+	<!--#include virtual="/layout/footer.html" -->
+
+    <!-- CMS.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.12/es5-shim.min.js"></script>
+	<script type="text/javascript" src="./js/navbar.js"></script>
+	<script type="text/javascript" src="./js/tabulator/tabulator.min.js"></script>
+
+	<script type="text/javascript" src="./js/json/journals2.js"></script>
+	<script type="text/javascript">
+		console.log(journals);
+		var table = new Tabulator("#table-journals", {
+		data:journals,
+		//autoColumns:true,
+		height:"80%",
+		rowHeight:30,
+		layout:"fitDataFill",
+		responsiveLayout:"collapse",
+		responsiveLayoutCollapseStartOpen:false,
+		movableRows:false,
+		rowHeader:{formatter:"responsiveCollapse", width:30, minWidth:30, hozAlign:"center", resizable:false, headerSort:false},
+		columns:[
+			{title:"Name", field:"Url", width:"70%", responsive:0, 
+				formatter:"link", formatterParams:{
+					labelField:"Name", urlField:"Url", target:"_blank",}},
+			{title:"OA", field:"Open Access", hozAlign:"left", width:80},
+			{title:"Publisher", field:"Publisher", hozAlign:"left", width:150},
+			//{title:"Url", field:"Url", hozAlign:"left", width:250, responsive:3, 
+			//	formatter:"link", formatterParams:{
+			//		labelField:"Url", url:"Url"}},
+			{title:"Abbreviation", field:"Abbr", hozAlign:"left", width:150},
+			],
+		})
+	</script>
+  </body>
+</html>

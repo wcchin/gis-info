@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIScience Events</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/typicons/typicons.css">
+    <!-- Bulma Version 0.7.2-->
+    <link rel="stylesheet" href="./css/bulma/bulma.min.css" />
+    <link href="./css/animations.css" rel="stylesheet">
+    <link href="./css/tabulator/tabulator_bulma.css" rel="stylesheet">
+    <link href="./css/catppuccin.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <noscript>Please enable JavaScript to view this site.</noscript>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/csi.js"></script>
+  </head>
+  <body>
+	<!--#include virtual="/layout/header.html" -->
+    
+    <div class="container">
+      <!-- START ARTICLE FEED -->
+      <section class="articles">
+        <div class="column is-8 is-offset-2">
+
+<div class="section fade-in">
+  <p class="title article-title">
+    Conferences
+  </p>
+</div>
+		  <div id="table-conference"></div>
+        </div>
+      </section>
+      <!-- END ARTICLE FEED -->
+    </div>
+	<!--#include virtual="/layout/footer.html" -->
+
+    <!-- CMS.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.12/es5-shim.min.js"></script>
+	<script type="text/javascript" src="./js/navbar.js"></script>
+	<script type="text/javascript" src="./js/tabulator/tabulator.min.js"></script>
+
+	<script type="text/javascript" src="./js/json/conference_events2.js"></script>
+	<script type="text/javascript">
+		//console.log(conference_events);
+		var table = new Tabulator("#table-conference", {
+		data:conference_events,
+		autoColumns:true,
+		height:"600px",
+		layout:"fitDataFill",
+		responsiveLayout:"collapse",
+		 responsiveLayoutCollapseStartOpen:false,
+		movableRows:false,
+		groupBy:"Year", //["Year", "Conference"],
+		groupToggleElement:"header",
+		rowHeader:{formatter:"responsiveCollapse", width:30, minWidth:30, hozAlign:"center", resizable:false, headerSort:false},
+		columns:[
+			{title:"Conference", field:"Conference", hozAlign:"left", width:40},
+			{title:"Year", field:"Year", hozAlign:"left", width:20},
+			{title:"Place", field:"Place", hozAlign:"left", width:20},
+			{title:"Date", field:"Date", hozAlign:"left", width:60},
+			{title:"url", field:"url", width:"30%"},//, formatter:"link", formatterParams:{labelField:"url", urlField:"url", target:"_blank",}},
+			{title:"Name", field:"Name", hozAlign:"left", width:80},
+			],
+		})
+	</script>
+  </body>
+</html>
