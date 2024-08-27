@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+  background-color: var(--ctp-frappe-base);
+}
+
 body {
-  background-color: var(--ctp-mocha-base);
-  color: var(--ctp-mocha-text);
+  background-color: var(--ctp-frappe-base);
+  color: var(--ctp-frappe-text);
   font-family: Montserrat;
   font-weight: 400;
+}
+
+#footer {
+  bottom: 0; 
+  position: absolute;
 }
 
 .tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-cell {
@@ -24,39 +33,39 @@ body {
 }
 
 .navbar-menu {
-  background-color: var(--ctp-mocha-mantle);
+  background-color: var(--ctp-frappe-mantle);
 }
 .navbar-burger, .menu-list a,
 .menu-list button,
 .menu-list .menu-item{
-  color: var(--ctp-mocha-lavender);
+  color: var(--ctp-frappe-lavender);
 }
 
 .navbar, a.navbar-brand {
-  background-color: var(--ctp-mocha-mantle);
+  background-color: var(--ctp-frappe-mantle);
 }
 
 .navbar-item {
-  background-color: var(--ctp-mocha-crust);
-  color: var(--ctp-mocha-text);
+  background-color: var(--ctp-frappe-crust);
+  color: var(--ctp-frappe-text);
   font-family: Montserrat;
   font-weight: 600;
 }
 
 a.navbar-item:hover {
-  background-color: var(--ctp-mocha-base);
-  color: var(--ctp-mocha-subtext1);
+  background-color: var(--ctp-frappe-base);
+  color: var(--ctp-frappe-subtext1);
   font-family: Montserrat;
   font-weight: 600;
 }
 
 td strong {
-  color: var(--ctp-mocha-base);
+  color: var(--ctp-frappe-base);
 }
 
 td {
-  color: var(--ctp-mocha-crust);
-  font-weight: 300;
+  color: var(--ctp-frappe-crust);
+  font-weight: 400;
 }
 
 .card {
@@ -64,3 +73,8 @@ td {
   color: var(--ctp-latte-text);
 }
 
+.tabulator-cell a {
+  color: var(--ctp-latte-blue);
+  font-weight: 500;
+  text-decoration: underline;
+}
